@@ -7,12 +7,12 @@
 # Let's learn about how to read data from files on disk.
 
 # Example of one way to read from a file
-file = open("landmarks.txt")
+file = open("landmarks.txt", "rb")
 
 # To Do: Dispay landmarks here
 
 file.each_line do |line|
-  puts
+  puts line
 end
 
 
