@@ -4,7 +4,7 @@ Welcome!  This repository contains most of the code
 and resources that we will be using thoughout the workshop.
 
 In case you're reading this in your text editor,
-this code repository is located at: 
+this code repository is located at: https://github.com/JeffCohen/wyzant
 
 **Hold It Right There!**
 
