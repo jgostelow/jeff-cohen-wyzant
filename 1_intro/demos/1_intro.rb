@@ -1,11 +1,12 @@
-# Welcome to Ruby!
+=begin
+Welcome to Ruby!
 
-# Let's learn about the essential data types in Ruby,
-# conditional statements, console-based input and output,
-# arrays and hashes, and Ruby's overall philosophy.
+Let's learn about the essential data types in Ruby,
+conditional statements, console-based input and output,
+arrays and hashes, and Ruby's overall philosophy.
+=end
 
 puts("Hello World")
-
 
 
 

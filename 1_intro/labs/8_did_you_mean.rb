@@ -17,3 +17,17 @@
 #
 # Can you think of other ways to make the calculation
 # more realistic?
+
+w1 = gets.chomp
+w2 = gets.chomp
+
+min_chars = [w1.size, w2.size].min
+distance = 0
+min_chars.times do |i|
+  if w1[i] != w2[i]
+    distance += 1
+  end
+end
+distance += (w1.size - w2.size).abs
+
+puts "Distance #{distance}"

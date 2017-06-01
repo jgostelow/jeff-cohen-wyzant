@@ -2,24 +2,23 @@
 
 # Let's learn about iteration so we can automate things.
 
-# puts "Howdy"
-# puts "Howdy"
-# puts "Howdy"
-# puts "Howdy"
-# puts "Howdy"
-
+=begin
+puts "Howdy"
+puts "Howdy"
+puts "Howdy"
+puts "Howdy"
+puts "Howdy"
+=end
 
 # We can use a "while" loop:
 
-i = 1
-while i <= 5 do
-  puts "Howdy"
+i = 0
+while i < 5 do
+  puts "Howdy while"
   i += 1
 end
 
-# We can use a "for" loop.
-fruits = ["apples", "bananas", "cookies"]
 
-for fruit in fruits
-  puts fruit
+for i in 1..5 do
+  puts "Howdy for"
 end
